@@ -1,0 +1,20 @@
+input_dir: TestProject
+output_dir: TestProject/Generated
+xcassets:
+  inputs:
+   - Resources/Images/Assets.xcassets
+  outputs:
+   - templateName: swift4
+     output: Assets.generated.swift
+fonts:
+  inputs:
+   - Resources/Fonts/
+  outputs:
+   - templateName: swift4
+     output: Fonts.generated.swift
+strings:
+  inputs: 
+   - Resources/Localization/ru.lproj/Localizable.strings
+  outputs:
+   - templateName: structured-swift4
+     output: L10n-Constants.generated.swift

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="crH-xX-N1I">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="eMk-1x-wUL">
+            <objects>
+                <viewController id="crH-xX-N1I" customClass="HomeViewController" customModule="TestProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3MH-z8-9O3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="GTL-cJ-2oK">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="GTL-cJ-2oK" firstAttribute="leading" secondItem="d9M-yE-tsy" secondAttribute="leading" id="AES-tK-LSo"/>
+                            <constraint firstItem="d9M-yE-tsy" firstAttribute="bottom" secondItem="GTL-cJ-2oK" secondAttribute="bottom" id="CbB-Yx-XfT"/>
+                            <constraint firstItem="GTL-cJ-2oK" firstAttribute="top" secondItem="d9M-yE-tsy" secondAttribute="top" id="elX-oI-gDe"/>
+                            <constraint firstItem="d9M-yE-tsy" firstAttribute="trailing" secondItem="GTL-cJ-2oK" secondAttribute="trailing" id="nCY-CM-GMM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="d9M-yE-tsy"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZSF-Ra-hGB">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="info.circle" catalog="system" id="Hsj-UZ-GWq">
+                            <connections>
+                                <action selector="infoButtonAction:" destination="crH-xX-N1I" id="j7e-1h-tNd"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="tableView" destination="GTL-cJ-2oK" id="VLF-nG-6qM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pnr-ED-uTJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="175" y="145"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="info.circle" catalog="system" width="64" height="62"/>
+    </resources>
+</document>

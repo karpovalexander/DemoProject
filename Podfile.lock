@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (4.9.0)
+  - IHProgressHUD (0.1.4)
+  - IVCollectionKit (0.9.3)
+  - Kingfisher (6.2.1)
+  - ReactiveCocoa (10.1.0):
+    - ReactiveSwift (~> 6.1)
+  - ReactiveSwift (6.1.0)
+  - SwiftGen (6.1.0)
+  - TableKit (2.10.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - IHProgressHUD
+  - IVCollectionKit
+  - Kingfisher
+  - ReactiveCocoa
+  - SwiftGen
+  - TableKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IHProgressHUD
+    - IVCollectionKit
+    - Kingfisher
+    - ReactiveCocoa
+    - ReactiveSwift
+    - SwiftGen
+    - TableKit
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  IHProgressHUD: a01846bfbb581c761c79747c67b08387c3bdfae3
+  IVCollectionKit: c40ec792918d20bc9d6fd9951e44255a947281fd
+  Kingfisher: e71c6fac2aebb1262888cabc2cb13d313362a48f
+  ReactiveCocoa: 2f1d942d79072eded6d8c3bc7c2a641d40855a56
+  ReactiveSwift: b78c7259f8ca46368238c895ae33a6a3bf9f811c
+  SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
+  TableKit: 65645d0dd786e21dc61464da59ad770c60a07282
+
+PODFILE CHECKSUM: ca203ec208d9b8eb3c4423117b9f5c3406dcd8fb
+
+COCOAPODS: 1.10.1

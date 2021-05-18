@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cgM-4t-B0c">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Info View Controller-->
+        <scene sceneID="Xoe-CN-tSF">
+            <objects>
+                <viewController id="cgM-4t-B0c" customClass="InfoViewController" customModule="TestProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RDh-ge-BVH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydz-V4-jND">
+                                <rect key="frame" x="167" y="428" width="80" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="SS6-Tu-6Pu"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="qlo-gL-PCs"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="closeButtonAction:" destination="cgM-4t-B0c" eventType="touchUpInside" id="GMg-36-htw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="i3i-vy-pcS" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Ydz-V4-jND" secondAttribute="trailing" constant="16" id="MlP-zx-9iq"/>
+                            <constraint firstItem="Ydz-V4-jND" firstAttribute="centerX" secondItem="RDh-ge-BVH" secondAttribute="centerX" id="NLX-if-sGe"/>
+                            <constraint firstItem="Ydz-V4-jND" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i3i-vy-pcS" secondAttribute="leading" constant="16" id="Wfn-wc-awo"/>
+                            <constraint firstItem="Ydz-V4-jND" firstAttribute="centerY" secondItem="RDh-ge-BVH" secondAttribute="centerY" id="sht-LX-frL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="i3i-vy-pcS"/>
+                    </view>
+                    <connections>
+                        <outlet property="closeButton" destination="Ydz-V4-jND" id="MMV-2Q-n5F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GRt-HZ-Eda" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="394" y="-215"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  TestProject
+
+  Created by IOS Developer on 10/09/19.
+  Copyright © 2019 IOS Developer. All rights reserved.
+*/
+"error.somethingWentsWrong" = "Неизвестная ошибка. Попробуйте повторить попытку позднее";
+"home.search-bar.placeholder" = "Поиск";
+"home.filter-category.top" = "Топ 10";
+"home.filter-category.shops" = "Магазины";
+"home.filter-category.products" = "Товары";
+
+"info.close" = "Закрыть";
